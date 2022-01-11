@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Revisador de palindromos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header_container d-flex flex-column align-items-center">
+            <div class="header__title__container d-flex flex-column align-items-center ">
+                <h1 class="header__title p-5">Revisador de Palidromos</h1>
+                <p class="header__text">
+                    Bienvenido al revisador de Palidromos, escribe una palabra o
+                     una frase para ver si esta se escirbe igual al derecho y al revez!!
+                </p>
+            </div>
+
+            <div class="header__body__container mt-5">
+                <form class="form d-flex flex-column align-items-center">
+                    <label class="label">Introduce tu frase</label>
+                    <input placeholder="Tu frase" name="frase" class="cuadro">
+                    <input placeholder="Frase Invertida" name="frase" class="invertida">
+
+                    <div class="spinner-border text-primary" id="spinner"></div>
+
+                    <div class="result">
+                        
+                    </div>
+
+                    <button class="btn btn-primary">Comprobar</button>
+                </form>
+            </div>
+
+
+
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+    <script src="/js/index.js"></script>
+    
+</body>
+</html>

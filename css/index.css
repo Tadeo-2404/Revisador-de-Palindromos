@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+.header {
+    height: 60rem;
+    background: linear-gradient(90deg, rgba(171,176,176,0.5) 0%, rgba(216,215,210,0.5) 100%), url(/assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header__title {
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.header__text {
+    text-align: center;
+    width: 40rem;
+    font-size: 2rem;
+}
+
+/*PARTE DEL FORM*/
+
+.label {
+    font-size: 2rem;
+    margin:  0 0 1rem 0;
+}
+
+.cuadro {
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 35rem;
+    margin-bottom: 2rem;
+}
+
+.invertida {
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 35rem;
+    margin-bottom: 2rem;
+    opacity: 1;
+    background-color: #fff;
+}
+
+.spinner-border {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+/*MENSAJE GENERADO*/
+.generado  {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.quit {
+    display: none;
+}
+
+.btn-quit {
+    cursor: not-allowed;
+    opacity: 0.4;
+}
+
+
+.btn.disabled, .btn:disabled, fieldset:disabled .btn {
+    pointer-events: visible;
+}
+
+
+/*MQ*/
+@media (max-width: 768px) {
+    .header {
+       height: 70rem;
+    }
+
+    .header__title {
+        font-size: 3rem;
+    }
+
+    .header__text {
+        width: 20rem;
+        font-size: 1.5rem;
+    }
+
+    .cuadro {
+        width: 20rem;
+    }
+
+    .invertida {
+        width: 20rem;
+    }
+
+    .header {
+        background: linear-gradient(90deg, rgba(171,176,176,0.5) 0%, rgba(216,215,210,0.5) 100%), url(/assets/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
